@@ -35,7 +35,7 @@ Recursos disponibles
 
 -   **Rango temporal:** período comprendido entre los años AAAA
 
-### Ministerios públicos - Actos procesales
+### Poderes judiciales - Actos procesales
 
 -   **Nombre:** pj-actos-procesales-penales.zip
 
