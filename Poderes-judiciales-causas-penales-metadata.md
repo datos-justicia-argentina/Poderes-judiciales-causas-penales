@@ -79,7 +79,9 @@ Recursos disponibles
 
 -   **delito_estadístico (string):** agrupación efectuada con fines estadísticos, a partir del delito
 
-### **Poderes judiciales - Actos procesales de causas penales - Muestreo Nombre:** pj-causas-penales-actos-procesales-muestreo.csv
+### **Poderes judiciales - Actos procesales de causas penales - Muestreo 
+
+-   **Nombre:** pj-causas-penales-actos-procesales-muestreo.csv
 
 -   **Descripción del contenido:** Muestreo de 1000 datos, elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a actos procesales penales de causas penales. Los datos completos están publicados en formato zip.
 
