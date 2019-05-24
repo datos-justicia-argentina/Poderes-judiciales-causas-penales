@@ -133,7 +133,21 @@ Recursos disponibles
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
--   **Rango temporal:**: período comprendido entre los años AAAA desde y AAAA hasta de cada provincia
+-   **Rango temporal:**: período comprendido entre 2013 y la fecha de última publicación, según la provincia
+
+### Campos del recurso
+
+-   **provincia_id (string):** código de provincia del Poder Judicial en que se la causa, según la codificación implementada por INDEC
+
+-   **provincia_nombre (string):** nombre de provincia del Poder Judicial en que se inició la causa
+
+-   **institucion (string):** nombre de la institución que publica
+
+-   **anio (string):** año de los casos informados
+
+-   **publica_casos_iniciados (string):** indica si la institución publica datos correspondientes a casos iniciados (recurso Poderes Judiciales - Causas penales". Toma los valores S: Sí, N: No
+
+-   **publica_actos_procesales (string):** indica si la institución publica datos correspondientes a actos procesales (Poderes Judiciales -  - Actos Procesales de causas penales". Toma los valores S: Sí, N: No
 
 ### Notas
 
