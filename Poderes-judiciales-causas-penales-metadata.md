@@ -133,11 +133,11 @@ Recursos disponibles
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
--   **Rango temporal:**: período comprendido entre 2013 y la fecha de última publicación, según la provincia
+-   **Rango temporal:**: período comprendido entre los años AAAA desde y AAAA hasta de cada provincia
 
 ### Campos del recurso
 
--   **provincia_id (string):** código de provincia del Poder Judicial en que se la causa, según la codificación implementada por INDEC
+-   **provincia_id (string):** código de provincia del Poder Judicial en que se inicia la causa, según la codificación implementada por INDEC
 
 -   **provincia_nombre (string):** nombre de provincia del Poder Judicial en que se inició la causa
 
