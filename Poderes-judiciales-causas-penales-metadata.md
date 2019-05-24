@@ -145,9 +145,9 @@ Recursos disponibles
 
 -   **anio (string):** año de los casos informados
 
--   **publica_casos_iniciados (string):** indica si la institución publica datos correspondientes a casos iniciados (recurso Poderes Judiciales - Causas penales". Toma los valores S: Sí, N: No
+-   **publica_casos_iniciados (string):** indica si la institución publica datos correspondientes a casos iniciados (correspondiente al recurso "Poderes Judiciales - Causas penales". Toma los valores S: Sí, N: No
 
--   **publica_actos_procesales (string):** indica si la institución publica datos correspondientes a actos procesales (Poderes Judiciales -  - Actos Procesales de causas penales". Toma los valores S: Sí, N: No
+-   **publica_actos_procesales (string):** indica si la institución publica datos correspondientes a actos procesales (correspondientes al recurso "Poderes Judiciales - Actos Procesales de causas penales"). Toma los valores S: Sí, N: No
 
 ### Notas
 
