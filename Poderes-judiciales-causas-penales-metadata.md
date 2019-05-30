@@ -152,7 +152,7 @@ Algunas provincias informan el código de acto procesal según figura en sus sis
 
 -   **fecha_envio (string):** fecha en que la institución remitió el paquete de datos al Ministerio de Justicia y Derechos Humanos de la Nación
 
-### ** Poderes Judiciales - provincias y años disponibles - causas penales**
+### Poderes Judiciales - provincias y años disponibles - causas penales
 
 -   **Nombre:** poderes-judiciales-provincias-y-anios-disponibles-causas-penales.csv
 
