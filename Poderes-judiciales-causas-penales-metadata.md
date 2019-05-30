@@ -91,7 +91,7 @@ Recursos disponibles
 
 -   **fecha_envio (string):** fecha en que la institución remitió el paquete de datos al Ministerio de Justicia y Derechos Humanos de la Nación
 
-### **Poderes judiciales - Actos procesales de causas penales - Muestreo 
+### Poderes judiciales - Actos procesales de causas penales - Muestreo 
 
 -   **Nombre:** poderes-judiciales-actos-procesales-penales-muestreo.csv
 
