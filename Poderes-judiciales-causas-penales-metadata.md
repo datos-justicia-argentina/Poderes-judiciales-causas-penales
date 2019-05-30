@@ -1,7 +1,7 @@
 Poderes judiciales - Causas penales
 ===================================
 
-En este conjunto de datos se presentan los datos elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a causas penales, siguiendo el Protocolo Técnico de Datos y de Procesos, en el marco del Convenio Interjurisdiccional de Datos Abiertos de Justicia.
+En este conjunto de datos se presentan los datos elaborados a partir de datos primarios remitidos por los poderes judiciales, correspondientes a causas penales, siguiendo el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), en el marco del [Convenio Interjurisdiccional de Datos Abiertos de Justicia](https://github.com/datos-justicia-argentina/Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos/blob/master/Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia.pdf).
 
 http://datos.jus.gob.ar/dataset/poderes-judiciales-causas-penales
 
@@ -20,40 +20,44 @@ Características
 
 -   **Grupo:** Instituciones de Justicia
 
--   **Frecuencia de Actualización:** Meusualmente
+-   **Frecuencia de Actualización:** Mensualmente
 
 Recursos disponibles
 --------------------
 
 ### Poderes judiciales – Causas penales
 
--   **Nombre:** pj-causas-iniciadas-penales.zip
+-   **Nombre:** poderes-judiciales-causas-penales.zip
 
 -   **Descripción del contenido:** Contiene los archivos con los datos correspondientes a causas penales elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales.
 
 -   **Formato:** ZIP
 
--   **Rango temporal:** período comprendido entre los años AAAA
+-   **Nombre de los archivos contenidos:** poderes-judiciales-causas-penales-AAAA.csv
 
-### Poderes judiciales - Actos procesales
+-   **Rango temporal:** causas penales iniciadas en el año AAAA
 
--   **Nombre:** pj-actos-procesales-penales.zip
+### Poderes judiciales - Actos procesales de causas penales
+
+-   **Nombre:** poderes-judiciales-actos-procesales-penales.zip
 
 -   **Descripción del contenido:** Contiene los archivos con los datos correspondientes a actos procesales de causas penales, elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales.
 
 -   **Formato:** ZIP
 
--   **Rango temporal:** período comprendido entre los años AAAA
+-   **Nombre de los archivos contenidos:** poderes-judiciales-actos-procesales-penales-AAAA.csv
+
+-   **Rango temporal:** actos procesales realizados en el año AAAA
 
 ### **Poderes judiciales - Causas penales – Muestreo**
 
--   **Nombre:** pj-causas-penales-iniciadas-muestreo.csv
+-   **Nombre:** poderes-judiciales-causas-penales-iniciadas-muestreo.csv
 
--   **Descripción del contenido:** Muestreo de 1000 datos, elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a causas penales. Los datos completos están publicados en formato zip.
+-   **Descripción del contenido:** Muestreo de 1000 datos, elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a causas penales. Los datos completos están publicados en formato zip
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
--   **Rango temporal:** período comprendido entre los años AAAA
+-   **Rango temporal:** muestreo de casos iniciados en el último año informado por la provincia
 
 ### Campos del recurso
 
@@ -63,31 +67,39 @@ Recursos disponibles
 
 -   **causa_id (string):** código que identifica la causa. Cada provincia usa su propio formato de identificación de la causa
 
--   **caso_id_mp (string):** código que identifica el caso en los sistemas de gestión de los ministerios públicos provinciales
+-   **caso_id_ministerio-publico (string):** código que identifica el caso en los sistemas de gestión de los ministerios públicos provinciales
 
--   **circunscripción_descripcion (string):** indica la unidad geográfica en que está divida la institución
+-   **circunscripción_id (string):** identificador de la circunscripción a la que pertenece la unidad en que se inició la causa. La circunscripción es la unidad territorial en que se divide la provincia a fin de la administración de justicia.
 
--   **unidad_descripcion (string):** nombre de la unidad fiscal donde se inicia la causa
+-   **circunscripción_descripcion (string):** descripción de la circunscripción a la que pertenece la unidad en que se inició la causa
 
--   **caso_fecha_inicio (date):** fecha en que se inicia el caso. Tiene el formato AAAA-MM-DD
+-   **unidad_id (string):** identificador de la unidad operativa del sistema de justicia en que se inició la causa
 
--   **caso_fecha_hecho (date):** fecha en que se produjo el hecho. Tiene el formato AAAA-MM-DD
+-   **unidad_descripcion (string):** descripción de la unidad operativa del sistema de justicia en que se inició la causa
+
+-   **caso_fecha_inicio (date):** fecha en que se inicia el caso en el Ministerio Público. Tiene el formato AAAA-MM-DD
+
+-   **causa_fecha_hecho (date):** fecha en que se produjo el hecho. Tiene el formato AAAA-MM-DD
+
+-   **delito_codigo (string):** código del delito denunciado. Algunas provincias utilizan la nomenclatura propuesta por el Ministerio de Justicia y Derechos Humanos de la Nación, [Codificación de delitos del Código Penal Argentino](http://datos.jus.gob.ar/dataset/codificacion-de-delitos-del-codigo-penal-argentino). Otras provincias informan los códigos de delito de sus propios sistemas. En el caso de que el delito informado fuera una descripción, código y descripción toman el mismo valor.
 
 -   **delito_descripcion (string):** descripción del delito denunciado
 
 -   **delito_tentativa (string):** describe si el delito se produjo en grado de tentativa. Toma los valores SI/NO
 
--   **delito_estadístico (string):** agrupación efectuada con fines estadísticos, a partir del delito
+-   **delito_estadístico (string):** agrupación efectuada con fines estadísticos, a partir de los delitos informados
+
+-   **fecha_envio (string):** fecha en que la institución remitió el paquete de datos al Ministerio de Justicia y Derechos Humanos de la Nación
 
 ### **Poderes judiciales - Actos procesales de causas penales - Muestreo 
 
--   **Nombre:** pj-causas-penales-actos-procesales-muestreo.csv
+-   **Nombre:** poderes-judiciales-actos-procesales-penales-muestreo.csv
 
 -   **Descripción del contenido:** Muestreo de 1000 datos, elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a actos procesales penales de causas penales. Los datos completos están publicados en formato zip.
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
--   **Rango temporal:** muestreo de actos procesales de causas penales llevados a cabo en el año AAAA
+-   **Rango temporal:** muestreo de actos procesales realizados en el último año informado por la provincia
 
 ### Campos del recurso
 
@@ -97,19 +109,25 @@ Recursos disponibles
 
 -   **causa_id (string):** código que identifica la causa. Cada provincia usa su propio formato de identificación de la causa
 
--   **caso_id_mp (string):** código que identifica el caso en los sistemas de gestión de los ministerios públicos provinciales
+-   **caso_id_ministerio-publico (string):** código que identifica el caso en los sistemas de gestión de los ministerios públicos provinciales
 
--   **circunscripción_descripcion (string):** indica la unidad geográfica en que está divida la institución
+-   **circunscripción_id (string):** identificador de la circunscripción a la que pertenece la unidad en que se inició la causa. La circunscripción es la unidad territorial en que se divide la provincia a fin de la administración de justicia.
 
--   **unidad_descripcion (string):** nombre de la unidad donde se lleva a cabo el acto procesal
+-   **circunscripción_descripcion (string):** descripción de la circunscripción a la que pertenece la unidad en que se inició la causa
 
--   **caso_fecha_inicio (date):** fecha en que se inicia el caso. Tiene el formato AAAA-MM-DD
+-   **unidad_id (string):** identificador de la unidad operativa del sistema de justicia en que se inició la causa
 
--   **caso_fecha_hecho (date):** fecha en que se produjo el hecho. Tiene el formato AAAA-MM-DD
+-   **unidad_descripcion (string):** descripción de la unidad operativa del sistema de justicia en que se inició la causa
+
+-   **caso_fecha_inicio (date):** fecha en que se inicia el caso en el Ministerio Público. Tiene el formato AAAA-MM-DD
+
+-   **causa_fecha_hecho (date):** fecha en que se produjo el hecho. Tiene el formato AAAA-MM-DD
 
 -   **autor_genero (string):** género del denunciado correspondiente al acto procesal. Toma los valores "M" para masculino y "F" para femenino
 
 -   **autor_edad (string):** edad del denunciado correspondiente al acto procesal. Si el denunciado es mayor de 65 años toma el valor 65+
+
+-   **delito_codigo (string):** código del delito denunciado. Algunas provincias utilizan la nomenclatura propuesta por el Ministerio de Justicia y Derechos Humanos de la Nación, [Codificación de delitos del Código Penal Argentino](http://datos.jus.gob.ar/dataset/codificacion-de-delitos-del-codigo-penal-argentino). Otras provincias informan los códigos de delito de sus propios sistemas. En el caso de que el delito informado fuera una descripción, código y descripción toman el mismo valor
 
 -   **delito_descripcion (string):** delito asociado a este denunciado y acto procesal
 
@@ -117,23 +135,32 @@ Recursos disponibles
 
 -   **delito_flagrancia (string):** indica si el caso sigue el proceso de flagrancia, en relación al acto procesal. Aplica para todas las provincias que tengan reglamentado dicho proceso. Toma los valores SI/NO
 
--   **delito_estadistico (string):** agrupación efectuada con fines estadísticos, a partir del delito informado
+-   **delito_estadistico (string):** agrupación efectuada con fines estadísticos, a partir de los delitos informados
 
--   **acto_procesal_descripcion (string):** descripción del acto procesal. Ejemplo: Archivo Imputabilidad/Sentencia Absolutoria,Declaración de Rebeldía, etc.
+-   **acto_procesal_codigo (string):** código del acto procesal.  Algunas provincias informan el acto procesal según los identificadores propuestos en el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), por ejemplo:
+	- CD100 - Audiencia de imputación o declaración del imputado
+	- CD120 - Archivo NN
+	- CD230 - Acusación / requerimiento de elevación a juicio, etc.
+
+Algunas provincias informan el código de acto procesal según figura en sus sistemas
+
+-   **acto_procesal_descripcion (string):** descripción del acto procesal
 
 -   **acto_procesal_fecha (date):** fecha del acto procesal correspondiente al caso y al denunciado. Tiene el formato AAAA-MM-DD
 
--   **acto_procesal_estadístico (string):** agrupación efectuada con fines estadísticos, a partir del acto procesal informado
+-   **acto_procesal_estadistico (string):** agrupación efectuada con fines estadísticos, a partir del acto procesal informado
 
-### **Provincias y años disponibles en los poderes judiciales - causas penales**
+-   **fecha_envio (string):** fecha en que la institución remitió el paquete de datos al Ministerio de Justicia y Derechos Humanos de la Nación
 
--   **Nombre:** provincias-y-anios-disponibles-poder-judicial-penal.csv
+### ** Poderes Judiciales - provincias y años disponibles - causas penales**
 
--   **Descripción del contenido:** Se detallan las provincias y los años desde-hasta de los casos y actos procesales contenidos en los Poderes Judiciales.
+-   **Nombre:** poderes-judiciales-provincias-y-anios-disponibles-causas-penales.csv
+
+-   **Descripción del contenido:** Índice de provincias y años disponibles publicados
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
--   **Rango temporal:**: período comprendido entre los años AAAA desde y AAAA hasta de cada provincia
+-   **Rango temporal:**: cada uno de los años informados para cada provincia
 
 ### Campos del recurso
 
