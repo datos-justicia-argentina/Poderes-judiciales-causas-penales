@@ -25,7 +25,7 @@ Características
 Recursos disponibles
 --------------------
 
-### Poderes judiciales – Causas penales
+### Poderes judiciales - Causas penales
 
 -   **Nombre:** poderes-judiciales-causas-penales.zip
 
