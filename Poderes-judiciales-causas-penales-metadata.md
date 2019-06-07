@@ -49,7 +49,7 @@ Recursos disponibles
 
 -   **Rango temporal:** actos procesales realizados en el año AAAA
 
-### **Poderes judiciales - Causas penales – Muestreo**
+### **Poderes judiciales - Causas penales - Muestreo**
 
 -   **Nombre:** poderes-judiciales-causas-penales-iniciadas-muestreo.csv
 
