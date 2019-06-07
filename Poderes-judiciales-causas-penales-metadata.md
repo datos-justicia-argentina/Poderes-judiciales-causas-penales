@@ -53,7 +53,7 @@ Recursos disponibles
 
 -   **Nombre:** poderes-judiciales-causas-penales-iniciadas-muestreo.csv
 
--   **Descripción del contenido:** Muestreo de 1000 datos, elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a causas penales. Los datos completos están publicados en formato zip
+-   **Descripción del contenido:** Muestreo de 1000 registros, elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a causas penales. Los datos completos están publicados en formato zip
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
@@ -95,7 +95,7 @@ Recursos disponibles
 
 -   **Nombre:** poderes-judiciales-actos-procesales-penales-muestreo.csv
 
--   **Descripción del contenido:** Muestreo de 1000 datos, elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a actos procesales penales de causas penales. Los datos completos están publicados en formato zip.
+-   **Descripción del contenido:** Muestreo de 1000 registros, elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a actos procesales penales de causas penales. Los datos completos están publicados en formato zip.
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
