@@ -81,7 +81,7 @@ Recursos disponibles
 
 -   **causa_fecha_hecho (date):** fecha en que se produjo el hecho. Tiene el formato AAAA-MM-DD
 
--   **delito_codigo (string):** código del delito denunciado. Algunas provincias utilizan la nomenclatura propuesta por el Ministerio de Justicia y Derechos Humanos de la Nación, [Codificación de delitos del Código Penal Argentino](http://datos.jus.gob.ar/dataset/codificacion-de-delitos-del-codigo-penal-argentino). Otras provincias informan los códigos de delito de sus propios sistemas. En el caso de que el delito informado fuera una descripción, código y descripción toman el mismo valor.
+-   **delito_codigo (string):** código del delito denunciado. Algunas provincias utilizan la nomenclatura propuesta por el Ministerio de Justicia de la Nación, [Codificación de delitos del Código Penal Argentino](http://datos.jus.gob.ar/dataset/codificacion-de-delitos-del-codigo-penal-argentino). Otras provincias informan los códigos de delito de sus propios sistemas. En el caso de que el delito informado fuera una descripción, código y descripción toman el mismo valor.
 
 -   **delito_descripcion (string):** descripción del delito denunciado
 
@@ -89,7 +89,7 @@ Recursos disponibles
 
 -   **delito_estadístico (string):** agrupación efectuada con fines estadísticos, a partir de los delitos informados
 
--   **fecha_envio (string):** fecha en que la institución remitió el paquete de datos al Ministerio de Justicia y Derechos Humanos de la Nación
+-   **fecha_envio (string):** fecha en que la institución remitió el paquete de datos al Ministerio de Justicia de la Nación
 
 ### Poderes judiciales - Actos procesales de causas penales - Muestreo 
 
@@ -127,7 +127,7 @@ Recursos disponibles
 
 -   **autor_edad (string):** edad del denunciado correspondiente al acto procesal. Si el denunciado es mayor de 65 años toma el valor 65+
 
--   **delito_codigo (string):** código del delito denunciado. Algunas provincias utilizan la nomenclatura propuesta por el Ministerio de Justicia y Derechos Humanos de la Nación, [Codificación de delitos del Código Penal Argentino](http://datos.jus.gob.ar/dataset/codificacion-de-delitos-del-codigo-penal-argentino). Otras provincias informan los códigos de delito de sus propios sistemas. En el caso de que el delito informado fuera una descripción, código y descripción toman el mismo valor
+-   **delito_codigo (string):** código del delito denunciado. Algunas provincias utilizan la nomenclatura propuesta por el Ministerio de Justicia de la Nación, [Codificación de delitos del Código Penal Argentino](http://datos.jus.gob.ar/dataset/codificacion-de-delitos-del-codigo-penal-argentino). Otras provincias informan los códigos de delito de sus propios sistemas. En el caso de que el delito informado fuera una descripción, código y descripción toman el mismo valor
 
 -   **delito_descripcion (string):** delito asociado a este denunciado y acto procesal
 
@@ -150,7 +150,7 @@ Algunas provincias informan el código de acto procesal según figura en sus sis
 
 -   **acto_procesal_estadistico (string):** agrupación efectuada con fines estadísticos, a partir del acto procesal informado
 
--   **fecha_envio (string):** fecha en que la institución remitió el paquete de datos al Ministerio de Justicia y Derechos Humanos de la Nación
+-   **fecha_envio (string):** fecha en que la institución remitió el paquete de datos al Ministerio de Justicia de la Nación
 
 ### Poderes Judiciales - provincias y años disponibles - causas penales
 
