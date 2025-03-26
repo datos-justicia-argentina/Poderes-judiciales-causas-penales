@@ -25,11 +25,11 @@ Características
 Recursos disponibles
 --------------------
 
-### Poderes judiciales - Causas penales
+### Poderes judiciales - Causas penales 2024-2025
 
--   **Nombre:** poderes-judiciales-causas-penales.zip
+-   **Nombre:** poderes-judiciales-causas-penales-2024-2025.zip
 
--   **Descripción del contenido:** Contiene los archivos con los datos correspondientes a causas penales elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales.
+-   **Descripción del contenido:** Contiene los archivos con los datos correspondientes a causas penales elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, años 2024 y 2025.
 
 -   **Formato:** ZIP
 
@@ -37,11 +37,35 @@ Recursos disponibles
 
 -   **Rango temporal:** causas penales iniciadas en el año AAAA
 
-### Poderes judiciales - Actos procesales de causas penales
+### Poderes judiciales - Actos procesales de causas penales 2024-2025
 
--   **Nombre:** poderes-judiciales-actos-procesales-penales.zip
+-   **Nombre:** poderes-judiciales-actos-procesales-penales-2024-2025.zip
 
--   **Descripción del contenido:** Contiene los archivos con los datos correspondientes a actos procesales de causas penales, elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales.
+-   **Descripción del contenido:** Contiene los archivos con los datos correspondientes a actos procesales de causas penales, elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, años 2024 y 2025.
+
+-   **Formato:** ZIP
+
+-   **Nombre de los archivos contenidos:** poderes-judiciales-actos-procesales-penales-AAAA.csv
+
+-   **Rango temporal:** actos procesales realizados en el año AAAA
+
+### Poderes judiciales - Causas penales 2017-2023
+
+-   **Nombre:** poderes-judiciales-causas-penales-2017-2023.zip
+
+-   **Descripción del contenido:** Contiene los archivos con los datos correspondientes a causas penales elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, entre los años 2017 y 2023.
+
+-   **Formato:** ZIP
+
+-   **Nombre de los archivos contenidos:** poderes-judiciales-causas-penales-AAAA.csv
+
+-   **Rango temporal:** causas penales iniciadas en el año AAAA
+
+### Poderes judiciales - Actos procesales de causas penales 2017-2023
+
+-   **Nombre:** poderes-judiciales-actos-procesales-penales-2017-2023.zip
+
+-   **Descripción del contenido:** Contiene los archivos con los datos correspondientes a actos procesales de causas penales, elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, entre los años 2017 y 2023.
 
 -   **Formato:** ZIP
 
