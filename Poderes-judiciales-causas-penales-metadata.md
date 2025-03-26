@@ -37,6 +37,8 @@ Recursos disponibles
 
 -   **Rango temporal:** causas penales iniciadas en el año AAAA
 
+-   **Observación:** la estructura de los archivos contenidos en este zip está descripta en el recurso "Poderes Judiciales - Causas penales - muestreo"
+
 ### Poderes judiciales - Actos procesales de causas penales 2024-2025
 
 -   **Nombre:** poderes-judiciales-actos-procesales-penales-2024-2025.zip
@@ -48,6 +50,8 @@ Recursos disponibles
 -   **Nombre de los archivos contenidos:** poderes-judiciales-actos-procesales-penales-AAAA.csv
 
 -   **Rango temporal:** actos procesales realizados en el año AAAA
+
+-   **Observación:** la estructura de los archivos contenidos en este zip está descripta en el recurso "Poderes Judiciales - Actos procesales de causas penales - muestreo"
 
 ### Poderes judiciales - Causas penales 2017-2023
 
@@ -61,6 +65,8 @@ Recursos disponibles
 
 -   **Rango temporal:** causas penales iniciadas en el año AAAA
 
+-   **Observación:** la estructura de los archivos contenidos en este zip está descripta en el recurso "Poderes Judiciales - Causas penales - muestreo"
+
 ### Poderes judiciales - Actos procesales de causas penales 2017-2023
 
 -   **Nombre:** poderes-judiciales-actos-procesales-penales-2017-2023.zip
@@ -72,6 +78,8 @@ Recursos disponibles
 -   **Nombre de los archivos contenidos:** poderes-judiciales-actos-procesales-penales-AAAA.csv
 
 -   **Rango temporal:** actos procesales realizados en el año AAAA
+
+-   **Observación:** la estructura de los archivos contenidos en este zip está descripta en el recurso "Poderes Judiciales - Actos procesales de causas penales - muestreo"
 
 ### **Poderes judiciales - Causas penales - Muestreo**
 
